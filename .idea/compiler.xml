@@ -9,5 +9,8 @@
         <module name="SeleniumJavaFrameWorkWithTestNG" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="SeleniumJavaFrameWorkWithTestNG" target="8" />
+    </bytecodeTargetLevel>
   </component>
 </project>
