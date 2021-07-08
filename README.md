@@ -8,4 +8,9 @@ This is a sample and basic level Selenium Java Framework which involves the foll
     Logging: Log4j2
     Reporting: Extent Reports
 
-Want to practice ?....Feel free to clone this repository and and run the tests by double clicking the batch file (.bat) available in the batchfiles folder.
+Want to practice Automation Testing With Selenium WebDriver using Java?....Feel free to clone this Framework repository and play around it.
+
+Follow the steps mentioned below to execute the tests:
+* Through Batch File: Project > batchfiles> respective batch file(.bat)> Double Click
+* Through Command Line: Switch to Project directory > mvn clean install
+* Through TestNG XML file: Project > TestNGSuites > Respective TestNG.xml file > Right Click > Run
