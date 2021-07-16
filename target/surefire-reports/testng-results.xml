@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Regression Suite" duration-ms="6158" started-at="2021-07-07T06:58:00Z" finished-at="2021-07-07T06:58:06Z">
+  <suite name="Regression Suite" duration-ms="5967" started-at="2021-07-16T08:36:15Z" finished-at="2021-07-16T08:36:21Z">
     <groups>
     </groups>
-    <test name="Windows - Chrome Browser" duration-ms="6158" started-at="2021-07-07T06:58:00Z" finished-at="2021-07-07T06:58:06Z">
+    <test name="Windows - Chrome Browser" duration-ms="5967" started-at="2021-07-16T08:36:15Z" finished-at="2021-07-16T08:36:21Z">
       <class name="com.application.testsuites.RegressionSuite">
-        <test-method status="PASS" signature="initializeBrowser()[pri:0, instance:com.application.testsuites.RegressionSuite@44c03695]" name="initializeBrowser" is-config="true" duration-ms="2347" started-at="2021-07-07T06:58:00Z" finished-at="2021-07-07T06:58:02Z">
+        <test-method status="PASS" signature="initializeBrowser()[pri:0, instance:com.application.testsuites.RegressionSuite@44c03695]" name="initializeBrowser" is-config="true" duration-ms="2241" started-at="2021-07-16T08:36:15Z" finished-at="2021-07-16T08:36:17Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initializeBrowser -->
-        <test-method status="PASS" signature="launchApplication()[pri:0, instance:com.application.testsuites.RegressionSuite@44c03695]" name="launchApplication" is-config="true" duration-ms="1071" started-at="2021-07-07T06:58:03Z" finished-at="2021-07-07T06:58:04Z">
+        <test-method status="PASS" signature="launchApplication()[pri:0, instance:com.application.testsuites.RegressionSuite@44c03695]" name="launchApplication" is-config="true" duration-ms="873" started-at="2021-07-16T08:36:18Z" finished-at="2021-07-16T08:36:19Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchApplication -->
-        <test-method status="PASS" signature="verifyUserLogin(java.lang.String, java.lang.String)[pri:0, instance:com.application.testsuites.RegressionSuite@44c03695]" name="verifyUserLogin" duration-ms="434" started-at="2021-07-07T06:58:04Z" data-provider="loginData" finished-at="2021-07-07T06:58:04Z">
+        <test-method status="PASS" signature="verifyUserLogin(java.lang.String, java.lang.String)[pri:0, instance:com.application.testsuites.RegressionSuite@44c03695]" name="verifyUserLogin" duration-ms="409" started-at="2021-07-16T08:36:19Z" data-provider="loginData" finished-at="2021-07-16T08:36:19Z">
           <params>
             <param index="0">
               <value>
@@ -31,11 +31,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyUserLogin -->
-        <test-method status="PASS" signature="launchApplication()[pri:0, instance:com.application.testsuites.RegressionSuite@44c03695]" name="launchApplication" is-config="true" duration-ms="120" started-at="2021-07-07T06:58:04Z" finished-at="2021-07-07T06:58:04Z">
+        <test-method status="PASS" signature="launchApplication()[pri:0, instance:com.application.testsuites.RegressionSuite@44c03695]" name="launchApplication" is-config="true" duration-ms="80" started-at="2021-07-16T08:36:19Z" finished-at="2021-07-16T08:36:19Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchApplication -->
-        <test-method status="PASS" signature="verifyUserLogin(java.lang.String, java.lang.String)[pri:0, instance:com.application.testsuites.RegressionSuite@44c03695]" name="verifyUserLogin" duration-ms="285" started-at="2021-07-07T06:58:04Z" data-provider="loginData" finished-at="2021-07-07T06:58:05Z">
+        <test-method status="PASS" signature="verifyUserLogin(java.lang.String, java.lang.String)[pri:0, instance:com.application.testsuites.RegressionSuite@44c03695]" name="verifyUserLogin" duration-ms="227" started-at="2021-07-16T08:36:19Z" data-provider="loginData" finished-at="2021-07-16T08:36:19Z">
           <params>
             <param index="0">
               <value>
@@ -51,15 +51,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyUserLogin -->
-        <test-method status="PASS" signature="launchApplication()[pri:0, instance:com.application.testsuites.RegressionSuite@44c03695]" name="launchApplication" is-config="true" duration-ms="51" started-at="2021-07-07T06:58:05Z" finished-at="2021-07-07T06:58:05Z">
+        <test-method status="PASS" signature="launchApplication()[pri:0, instance:com.application.testsuites.RegressionSuite@44c03695]" name="launchApplication" is-config="true" duration-ms="42" started-at="2021-07-16T08:36:19Z" finished-at="2021-07-16T08:36:19Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchApplication -->
-        <test-method status="PASS" signature="verifyHomepageLogo()[pri:0, instance:com.application.testsuites.RegressionSuite@44c03695]" name="verifyHomepageLogo" duration-ms="50" started-at="2021-07-07T06:58:05Z" description="This test case is to verify the logo in HomePage" finished-at="2021-07-07T06:58:05Z">
+        <test-method status="PASS" signature="verifyHomepageLogo()[pri:0, instance:com.application.testsuites.RegressionSuite@44c03695]" name="verifyHomepageLogo" duration-ms="46" started-at="2021-07-16T08:36:19Z" description="This test case is to verify the logo in HomePage" finished-at="2021-07-16T08:36:19Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyHomepageLogo -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.application.testsuites.RegressionSuite@44c03695]" name="closeBrowser" is-config="true" duration-ms="1153" started-at="2021-07-07T06:58:05Z" finished-at="2021-07-07T06:58:06Z">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.application.testsuites.RegressionSuite@44c03695]" name="closeBrowser" is-config="true" duration-ms="1157" started-at="2021-07-16T08:36:19Z" finished-at="2021-07-16T08:36:21Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->

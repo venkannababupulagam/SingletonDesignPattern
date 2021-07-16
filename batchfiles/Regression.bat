@@ -1,2 +1,2 @@
 cd ..
-mvn clean install
+mvn clean install -PRegressionsuite
