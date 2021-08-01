@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/SeleniumJavaFrameWorkWithTestNG.iml" filepath="$PROJECT_DIR$/SeleniumJavaFrameWorkWithTestNG.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SingletonDesignPattern.iml" filepath="$PROJECT_DIR$/SingletonDesignPattern.iml" />
     </modules>
   </component>
 </project>

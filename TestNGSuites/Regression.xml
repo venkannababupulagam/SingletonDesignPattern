@@ -1,15 +1,10 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Regression Suite" >
-    <listeners>
-        <listener class-name="com.application.listeners.Reports"/>
-        <listener class-name="com.application.analyzer.AnnotationTransformer"/>
-    </listeners>
     <test name="Windows - Chrome Browser">
         <classes>
             <class name="com.application.testsuites.RegressionSuite">
                 <methods>
                     <include name="verifyUserLogin"/>
-                    <include name="verifyHomepageLogo"/>
                 </methods>
             </class>
         </classes>

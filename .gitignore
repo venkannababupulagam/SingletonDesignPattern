@@ -1,4 +1,12 @@
 # Default ignored files
-/logs/
-/Screenshots/
-/.idea/
+/shelf/
+/workspace.xml
+.idea/
+logs/
+Screenshots/
+*.html
+*.iml
+target/
+
+
+

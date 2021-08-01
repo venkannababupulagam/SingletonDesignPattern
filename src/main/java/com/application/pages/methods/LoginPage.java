@@ -1,19 +1,28 @@
 package com.application.pages.methods;
 
-import com.application.utils.seleniumutils.SeleniumActions;
+import com.application.base.BrowserSetup;
 import com.application.pages.locators.LoginPageLocators;
-import com.application.utils.filehandlingutils.ReadProperties;
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
 
-public class LoginPage extends SeleniumActions implements LoginPageLocators {
+public class LoginPage implements LoginPageLocators {
 
-    WebDriver driver;
-    ReadProperties properties;
+    private static LoginPage loginPage;
+    BrowserSetup base = BrowserSetup.getBase();
+    WebDriver driver = base.getDriver();
 
-    public LoginPage(WebDriver driver) {
-        super(driver);
-        this.driver = driver;
+    /**
+     * Implemented this class as singleton class
+     */
+    private LoginPage() {
+    }
+
+    public static LoginPage getLoginPage() {
+        if (loginPage == null) {
+            loginPage = new LoginPage();
+        }
+        return loginPage;
     }
 
 
@@ -25,5 +34,23 @@ public class LoginPage extends SeleniumActions implements LoginPageLocators {
 
     public void verifyLogin() {
         Assert.assertTrue(isElementPresent(LOGO_VERIFY));
+    }
+
+
+    public void navigateToUrl(String url) {
+        driver.get(url);
+    }
+
+    public void enterText(By locator, String text) {
+        driver.findElement(locator).sendKeys(text);
+    }
+
+    public void clickOnElement(By locator) {
+        driver.findElement(locator).click();
+    }
+
+    public boolean isElementPresent(By locator) {
+        boolean isDisplayed = driver.findElement(locator).isDisplayed();
+        return isDisplayed;
     }
 }

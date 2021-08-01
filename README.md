@@ -1,16 +1,15 @@
-This is a sample and basic level Selenium Java Framework which involves the following:
+Singleton Design Pattern restricts the instantiation of a class to one 'single' object. 
+In order to achieve that:
+1. Make the Default Constructor as Private                                   
+private ClassName(){}
 
-    Automation Tool: Selenium
-    Programming Language: Java
-    Unit Testing Framework: TestNG
-    Build Management Tool: Maven
-    Design Pattern: Page Object Model
-    Logging: Log4j2
-    Reporting: Extent Reports
-
-Want to practice Automation Testing With Selenium WebDriver using Java?....Feel free to clone this Framework repository and play around it.
-
-Follow the steps mentioned below to execute the tests:
-* Through Batch File: Project > batchfiles> respective batch file(.bat)> Double Click
-* Through Command Line: Switch to Project directory > mvn clean install
-* Through TestNG XML file: Project > TestNGSuites > Respective TestNG.xml file > Right Click > Run
+2. Create a private static Class type Variable and Initialize it with new keyword                     
+private static ClassName obj = null; 
+po
+3. Create a public static (for global access) get class instance method with class return type                 
+public static ClassName getClassName(){                  
+    if(obj==null){                                                   
+    new ClassName();                                                   
+    }                                                       
+    return obj;                                                
+    } 

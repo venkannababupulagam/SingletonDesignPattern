@@ -49,7 +49,7 @@
               <ul>
                 <li>
                   <a href="#" class="navigator-link " panel-name="test-xml-Regression_Suite">
-                    <span>C:\Users\venkannababu.pulagam\IdeaProjects\SeleniumJavaFrameWorkWithTestNG\TestNGSuites\Regression.xml</span>
+                    <span>F:\Practice\SingletonDesignPattern\TestNGSuites\Regression.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -91,7 +91,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">3 methods,   3 passed</span>
+                    <span class="method-stats">2 methods,   2 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -102,17 +102,12 @@
                     <div class="method-list-content passed suite-Regression_Suite">
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Regression_Suite" title="com.application.testsuites.RegressionSuite" hash-for-method="verifyHomepageLogo">verifyHomepageLogo</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Regression_Suite" title="com.application.testsuites.RegressionSuite" hash-for-method="verifyUserLogin(standard_user, secret_sauce)">verifyUserLogin(standard_user, secret_sauce)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Regression_Suite" title="com.application.testsuites.RegressionSuite" hash-for-method="verifyUserLogin(problem_user, secret_sauce)">verifyUserLogin(problem_user, secret_sauce)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Regression_Suite" title="com.application.testsuites.RegressionSuite" hash-for-method="verifyUserLogin(standard_user, secret_sauce)">verifyUserLogin(standard_user, secret_sauce)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Regression_Suite -->
@@ -135,11 +130,10 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="verifyHomepageLogo">
-                  </a> <!-- verifyHomepageLogo -->
-                  <span class="method-name">verifyHomepageLogo</span>
-                  <em>
-(This test case is to verify the logo in HomePage)                  </em>
+                  <a name="verifyUserLogin(standard_user, secret_sauce)">
+                  </a> <!-- verifyUserLogin(standard_user, secret_sauce) -->
+                  <span class="method-name">verifyUserLogin</span>
+                  <span class="parameters">(standard_user, secret_sauce)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -150,36 +144,23 @@
                   <span class="parameters">(problem_user, secret_sauce)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="verifyUserLogin(standard_user, secret_sauce)">
-                  </a> <!-- verifyUserLogin(standard_user, secret_sauce) -->
-                  <span class="method-name">verifyUserLogin</span>
-                  <span class="parameters">(standard_user, secret_sauce)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-Regression_Suite-class-passed -->
         </div> <!-- panel Regression_Suite -->
         <div panel-name="test-xml-Regression_Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\venkannababu.pulagam\IdeaProjects\SeleniumJavaFrameWorkWithTestNG\TestNGSuites\Regression.xml</span>
+            <span class="header-content">F:\Practice\SingletonDesignPattern\TestNGSuites\Regression.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
 &lt;suite guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot; name=&quot;Regression Suite&quot;&gt;
-  &lt;listeners&gt;
-    &lt;listener class-name=&quot;com.application.listeners.Reports&quot;/&gt;
-    &lt;listener class-name=&quot;com.application.analyzer.AnnotationTransformer&quot;/&gt;
-  &lt;/listeners&gt;
   &lt;test thread-count=&quot;5&quot; verbose=&quot;0&quot; name=&quot;Windows - Chrome Browser&quot;&gt;
     &lt;classes&gt;
       &lt;class name=&quot;com.application.testsuites.RegressionSuite&quot;&gt;
         &lt;methods&gt;
           &lt;include name=&quot;verifyUserLogin&quot;/&gt;
-          &lt;include name=&quot;verifyHomepageLogo&quot;/&gt;
         &lt;/methods&gt;
       &lt;/class&gt; &lt;!-- com.application.testsuites.RegressionSuite --&gt;
     &lt;/classes&gt;
@@ -221,24 +202,20 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(3);
+data.addRows(2);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'verifyUserLogin')
 data.setCell(0, 2, 'com.application.testsuites.RegressionSuite')
-data.setCell(0, 3, 409);
+data.setCell(0, 3, 550);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'verifyUserLogin')
 data.setCell(1, 2, 'com.application.testsuites.RegressionSuite')
-data.setCell(1, 3, 227);
-data.setCell(2, 0, 2)
-data.setCell(2, 1, 'verifyHomepageLogo')
-data.setCell(2, 2, 'com.application.testsuites.RegressionSuite')
-data.setCell(2, 3, 46);
+data.setCell(1, 3, 415);
 window.suiteTableData['Regression_Suite']= { tableData: data, tableDiv: 'times-div-Regression_Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 682 ms</span>
+              <span class="suite-total-time">Total running time: 965 ms</span>
               <div id="times-div-Regression_Suite">
               </div> <!-- times-div-Regression_Suite -->
             </div> <!-- times-div -->
@@ -265,37 +242,25 @@ return data;
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
               <div class="chronological-class-name">com.application.testsuites.RegressionSuite</div> <!-- chronological-class-name -->
-              <div class="configuration-test before">
-                <span class="method-name">initializeBrowser</span>
-                <span class="method-start">0 ms</span>
-              </div> <!-- configuration-test before -->
               <div class="configuration-method before">
                 <span class="method-name">launchApplication</span>
-                <span class="method-start">3056 ms</span>
+                <span class="method-start">0 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">verifyUserLogin(standard_user, secret_sauce)</span>
-                <span class="method-start">3929 ms</span>
+                <span class="method-start">2533 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">launchApplication</span>
-                <span class="method-start">4344 ms</span>
+                <span class="method-start">3084 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">verifyUserLogin(problem_user, secret_sauce)</span>
-                <span class="method-start">4424 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method before">
-                <span class="method-name">launchApplication</span>
-                <span class="method-start">4652 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">verifyHomepageLogo</span>
-                <span class="method-start">4694 ms</span>
+                <span class="method-start">3210 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-test after">
                 <span class="method-name">closeBrowser</span>
-                <span class="method-start">4742 ms</span>
+                <span class="method-start">3627 ms</span>
               </div> <!-- configuration-test after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
