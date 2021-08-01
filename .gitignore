@@ -1,12 +1,12 @@
 # Default ignored files
 /shelf/
 /workspace.xml
-.idea/
+/.idea/
 logs/
 Screenshots/
 *.html
 *.iml
-target/
+/target/
 
 
 
